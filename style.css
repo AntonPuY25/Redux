@@ -1,0 +1,65 @@
+.main {
+    width: 100%;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+.window {
+    width: 60%;
+    padding: 10px;
+    margin: 0 auto;
+    height: 700px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.numberRoom {
+    display: block;
+    width: 50%;
+    height: 100%;
+    background-color: chocolate;
+    border: 1px solid black;
+    float: left;
+}
+
+.numberRoom div {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.room {
+    display: block;
+    float: left;
+    width: 49%;
+    height: 50%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.messageRoom {
+    display: block;
+    float: left;
+    width: 49%;
+    height: 50%;
+    background-color: azure;
+    border: 1px solid black;
+}
+
+.inp {
+    position: relative;
+    left: 20%;
+    top: 20px;
+}
+
+.btn {
+    position: relative;
+    width: 100px;
+    right: 15%;
+    top: 50px;
+}
+
